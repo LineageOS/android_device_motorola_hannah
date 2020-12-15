@@ -20,10 +20,6 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto e5 plus
 PRODUCT_MANUFACTURER := motorola
 
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
-    ro.product.model \
-    ro.product.name
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="hannah_t-user 8.0.0 OCPS27.91-150-8 2 release-keys" \
     PRODUCT_NAME="hannah"
